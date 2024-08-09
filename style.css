@@ -1,0 +1,75 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+h1{
+    color:white
+}
+/* Estilos para el encabezado*/
+.wrapper
+{width: 100vw;
+height: 100vh;
+background-color: rgb(19, 60, 143);
+color:white}
+
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.menu a{
+    color:white ;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.menu li{
+    list-style: none;
+}
+
+/*hover es el color flotante o fondo*/
+.menu a:hover{
+    background-color: rgb(126, 22, 96);
+}
+
+/* Estilos para el orden y o espacio de los textos o items*/
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    padding: 2em;
+}
+.brand{
+    margin-top:- 8px;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    position:relative;  
+}
+
+h2{
+    font-size: 1em; /* es el tamano de fuente */ 
+}
+
+.main img{
+    width: 350px;
+    height: 420px;
+  /*  margin-bottom:80px;  Mueve la imagen 20 píxeles hacia arriba */
+ /*  margin-left: 145px; Mueve la imagen 50 píxeles hacia la derecha */
+    
+}
+
+#sobre-mi img {
+    display: block;           /* Hace que la imagen ocupe toda la línea */
+    margin: 10px auto;        /* Centra la imagen y agrega espacio alrededor */
+    border-radius: 4px;
+    width: 250px;
+    height:250px;      /* Bordes redondeados en la imagen */}
